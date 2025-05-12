@@ -23,10 +23,10 @@ ExcelDataMerger/
 ├── .venv/                # Virtual environment (tidak ikut Git)
 ├── input/                # Folder file Excel sumber
 ├── output/               # Hasil akhir dan file manual jika perlu
-│   ├── hasil\_merge.xlsx
+│   ├── hasil_merge.xlsx
 │   └── Kode barang list.xlsx
 ├── config.json           # Konfigurasi kolom, sheet, mapping, autofill, dll
-├── merge\_excel.py        # Script utama
+├── merge_excel.py        # Script utama
 ├── requirements.txt      # Daftar dependensi Python
 ├── .gitignore            # File untuk mengecualikan folder tertentu dari Git
 └── README.md             # Dokumentasi proyek ini
