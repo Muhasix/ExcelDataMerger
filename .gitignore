@@ -1,3 +1,18 @@
-# Folders
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 .venv/
-output/*
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Output files
+/output/
+
+# Excel temp files
+~$*.xlsx
