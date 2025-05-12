@@ -1,0 +1,35 @@
+{
+  "sheets": [
+    {
+      "filename": "lap_penjualan1.xlsx",
+      "sheet_name": "Sheet1",
+      "columns_map": {
+        "Nama Barang": "nama_barang",
+        "Harga": "harga",
+        "Tanggal": "tanggal"
+      },
+      "auto_fill": {
+        "marketplace": "A"
+      }
+    },
+    {
+      "filename": "lap_penjualan2.xlsx",
+      "sheet_name": "Sheet1",
+      "columns_map": {
+        "Nama Produk": "nama_barang",
+        "Harga Jual": "harga",
+        "Tanggal": "tanggal"
+      },
+      "auto_fill": {
+        "marketplace": "B"
+      }
+    }
+  ],
+  "required_fields": [
+    "kode_barang"
+  ],
+  "output_sort": [
+    "tanggal",
+    "marketplace"
+  ]
+}
